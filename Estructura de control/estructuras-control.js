@@ -6,6 +6,9 @@ if (edad >= 18) {
 } else {
   console.log("Eres menor de edad.");
 }
+//opcion alternativa 
+let edad2 = 18;
+console.log(edad >= 18 ? "Eres mayor de edad." : "Eres menor de edad.");
 
 //for
 for (let i = 0; i < 5; i++) {
