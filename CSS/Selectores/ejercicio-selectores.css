@@ -1,0 +1,18 @@
+/* Selector de tipo para el título */
+h1 {
+    color: blue; /* Cambia el color del texto a azul */
+    font-family: Arial, sans-serif; /* Fuente del título */
+  }
+  
+  /* Selector de clase para el párrafo */
+  .descripcion {
+    font-size: 18px; /* Cambia el tamaño del texto */
+    color: darkgray; /* Cambia el color del texto a gris oscuro */
+  }
+  
+  /* Selector de ID para el primer elemento de la lista */
+  #especial {
+    font-weight: bold; /* Texto en negrita */
+    color: green; /* Cambia el color del texto a verde */
+  }
+  

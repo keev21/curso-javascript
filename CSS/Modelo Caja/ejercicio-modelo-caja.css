@@ -1,0 +1,17 @@
+/* Estilo para la caja */
+.caja {
+    width: 300px; /* Ancho de la caja */
+    height: auto; /* Altura automática para adaptarse al contenido */
+    padding: 20px; /* Relleno dentro de la caja */
+    border: 2px solid #4CAF50; /* Borde de 2px de color verde */
+    margin: 30px auto; /* Margen superior e inferior de 30px, centrado horizontalmente */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el ancho y alto de la caja */
+    text-align: center; /* Centrar el texto dentro de la caja */
+}
+
+/* Estilo para la imagen */
+.caja img {
+    max-width: 100%; /* La imagen no debe exceder el ancho de la caja */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-top: 15px; /* Espaciado superior para la imagen */
+}

@@ -1,0 +1,28 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+/* Caja con box-sizing: content-box */
+.content-box {
+    width: 200px; /* Solo el contenido tiene esta anchura */
+    height: 100px; /* Solo el contenido tiene esta altura */
+    padding: 20px; /* Espacio interno */
+    border: 5px solid blue; /* Borde azul */
+    margin: 10px auto; /* Espacio externo */
+    background-color: lightblue;
+    box-sizing: content-box; /* Modelo de caja por defecto */
+}
+
+/* Caja con box-sizing: border-box */
+.border-box {
+    width: 200px; /* El contenido, el padding y el borde suman este ancho */
+    height: 100px; /* El contenido, el padding y el borde suman esta altura */
+    padding: 20px; /* Espacio interno */
+    border: 5px solid green; /* Borde verde */
+    margin: 10px auto; /* Espacio externo */
+    background-color: lightgreen;
+    box-sizing: border-box; /* Modelo de caja simplificado */
+}

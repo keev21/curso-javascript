@@ -1,0 +1,43 @@
+/* Estilo para el contenedor de la tarjeta */
+.tarjeta {
+    background-color: #f9f9f9; /* Color de fondo */
+    border: 2px solid #ddd; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    max-width: 300px; /* Ancho máximo */
+    margin: 50px auto; /* Centrar la tarjeta en la página */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilo para el título */
+.tarjeta h1 {
+    font-family: Arial, sans-serif; /* Fuente */
+    font-size: 24px; /* Tamaño de texto */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Espaciado debajo del título */
+}
+
+/* Estilo para el párrafo */
+.tarjeta p {
+    font-family: "Georgia", serif; /* Fuente elegante */
+    font-size: 16px; /* Tamaño del texto */
+    color: #555; /* Color gris oscuro */
+    margin-bottom: 20px; /* Espaciado debajo del párrafo */
+}
+
+/* Estilo para el botón */
+.tarjeta button {
+    background-color: #4CAF50; /* Color verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+.tarjeta button:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}

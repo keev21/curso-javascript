@@ -1,0 +1,28 @@
+/* Establecer el estilo de fuente para el título */
+.titulo {
+
+    font-family: Arial, sans-serif; /* Familia de fuente Arial */
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+
+    font-style: italic; /* Texto en cursiva */
+    text-align: center; /* Texto centrado */
+
+    text-decoration: underline; /* Subraya el texto */
+    letter-spacing: 2px; /* Espacio entre letras */
+}
+
+/* Establecer estilo para el párrafo */
+.texto {
+    
+    font-family: 'Times New Roman', serif; /* Cambia la familia de fuente */
+    font-size: 18px; /* Tamaño de fuente */
+
+    font-weight: normal; /* Grosor normal */
+    text-align: justify; /* Alinea el texto a ambos lados */
+
+    line-height: 1.8; /* Espacio entre líneas para mejor legibilidad */
+    letter-spacing: 1px; /* Espacio entre letras */
+
+    text-decoration: none; /* Sin decoración de texto */
+}

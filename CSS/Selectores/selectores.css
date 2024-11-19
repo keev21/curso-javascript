@@ -1,0 +1,17 @@
+/* Selector de tipo: Afecta a todos los elementos <p> */
+p {
+    color: blue; /* Cambia el color del texto a azul */
+    font-size: 16px; /* Define el tamaño de fuente */
+}
+
+/* Selector de clase: Afecta a todos los elementos con la clase .resaltado */
+.resaltado {
+    color: red; /* Cambia el color del texto a rojo */
+    font-weight: bold; /* Pone el texto en negrita */
+}
+
+/* Selector de ID: Afecta al elemento con el ID #unico */
+#unico {
+    color: green; /* Cambia el color del texto a verde */
+    font-size: 18px; /* Define un tamaño de fuente más grande */
+}

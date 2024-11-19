@@ -1,0 +1,35 @@
+/* Establecer un layout con flexbox para el cuerpo */
+body, html {
+    height: 100%; /* Asegura que el body ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina márgenes predeterminados */
+}
+
+/* Contenedor principal con Flexbox */
+.layout {
+    display: flex; /* Activa Flexbox */
+    flex-direction: column; /* Organiza los elementos en una columna */
+    height: 100%; /* Hace que el contenedor ocupe toda la altura */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Texto blanco */
+    padding: 20px; /* Relleno */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para el contenido principal */
+main {
+    flex: 1; /* Hace que el contenido ocupe el espacio restante disponible */
+    padding: 20px; /* Relleno */
+    background-color: #f4f4f4; /* Fondo gris claro */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar el texto */
+    padding: 10px; /* Relleno */
+}

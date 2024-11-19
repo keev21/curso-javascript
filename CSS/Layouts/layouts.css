@@ -1,0 +1,40 @@
+/* Display: Block */
+.block {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Flexbox Layout */
+  .flexbox {
+    display: flex;
+    flex-direction: row; /* Coloca los elementos en fila */
+    justify-content: space-around; /* Espacio equitativo entre los elementos */
+    align-items: center; /* Centra los elementos verticalmente */
+    background-color: lightcoral;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .flexbox div {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  /* Grid Layout */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+    grid-gap: 10px; /* Espacio entre los elementos */
+    background-color: lightgreen;
+    padding: 10px;
+  }
+  
+  .grid div {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  

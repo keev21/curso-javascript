@@ -1,0 +1,11 @@
+/* Cambiar la fuente del texto */
+.poema {
+    font-family: "Georgia", serif; /* Fuente elegante para el poema */
+    font-size: 18px; /* Tamaño adecuado para lectura */
+    line-height: 1.8; /* Espaciado entre líneas */
+    text-align: center; /* Centrar el texto */
+    text-transform: capitalize; /* Capitalizar la primera letra de cada línea */
+    color: #746363; /* Color de texto gris oscuro */
+    margin: 20px auto; /* Espaciado alrededor del texto */
+    max-width: 600px; /* Limitar el ancho del contenedor */
+}

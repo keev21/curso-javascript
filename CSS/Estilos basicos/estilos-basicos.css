@@ -1,0 +1,37 @@
+/* Aplica un color de fondo a la página */
+body {
+    background-color: #373a3b8b; /* Fondo de color azul claro */
+    font-family: Arial, sans-serif; /* Fuente de la página */
+   
+    
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    color: #02ff02; /* Color  para el texto */
+    font-size: 2em; /* Tamaño grande para el encabezado */
+    text-align: center; /* Alineación centrada */
+   
+}
+
+/* Estilo para el párrafo */
+p {
+    color: #1bf40c; /* Color verde  para el parrafo */
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: rgb(255, 255, 255); /* Color de texto blanco */
+    padding: 10px 20px; /* Relleno dentro del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    
+}
+
+/* Cambia el color del botón al pasar el ratón */
+button:hover {
+    background-color: #021b03; /* Color verde más oscuro */
+}
