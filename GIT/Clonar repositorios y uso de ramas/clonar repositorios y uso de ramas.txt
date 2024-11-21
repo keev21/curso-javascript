@@ -1,0 +1,31 @@
+Clonar un repositorio:
+git clone url-del-repositorio
+
+Acceder al directorio clonado:
+cd nombre-repositorio
+
+Trae informacion de toda las ramas del repositorio:
+git fetch --all 
+
+actualizar tu rama local con los cambios más recientes
+git pull origin nombre-de-la-rama
+
+
+Crear una rama:
+git branch nombre-de-la-rama
+
+Cambiar de rama:
+git checkout nombre-de-la-rama
+o
+git switch nombre-de-la-rama
+
+Fusionar ramas:
+git merge nombre-de-la-rama
+
+Eliminar ramas innecesarias:
+    Rama local: 
+    git branch -d nombre-de-la-rama
+
+    Rama remota: 
+    git push origin --delete nombre-de-la-rama
+    

@@ -1,0 +1,23 @@
+Inicializar un repositorio local:
+git init
+
+Clonar un repositorio existente:
+git clone URL-del-repositorio
+
+Agregar archivos al área de preparación:
+git add nombre-del-archivo
+git add .  # Agregar todos los archivos modificados
+
+Ver el estado de los archivos:
+git status
+
+Hacer un commit:
+git commit -m "Descripción de los cambios"
+
+Ver el historial de commits:
+git log
+
+Eliminar un archivo del área de preparación (staging area), 
+sin afectar el contenido del archivo en tu directorio de trabajo
+
+git restore --staged  "nombre_archivo"
