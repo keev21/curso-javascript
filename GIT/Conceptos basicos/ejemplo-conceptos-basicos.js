@@ -5,6 +5,7 @@ console.log("Hola mundo");
 //git status
 //git commit -m "Agregar mensaje: hola mundo"
 //git log
+
 console.log("Hola mundo 2");
 //git add conceptos.js
 //git status
