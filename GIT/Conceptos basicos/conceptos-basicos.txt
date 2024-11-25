@@ -1,9 +1,6 @@
 Inicializar un repositorio local:
 git init
 
-Clonar un repositorio existente:
-git clone URL-del-repositorio
-
 Agregar archivos al área de preparación:
 git add nombre-del-archivo
 git add .  # Agregar todos los archivos modificados
