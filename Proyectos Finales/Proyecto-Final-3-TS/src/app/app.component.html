@@ -1,0 +1,46 @@
+<div class="encuesta">
+  <h1>Encuesta de Satisfacción</h1>
+
+  <!-- Pregunta 1 -->
+  <div class="pregunta">
+    <p>1. ¿Qué tan satisfecho estás con nuestro producto?</p>
+    <select [(ngModel)]="respuestas[0]">
+      <option value="" disabled selected>Selecciona una opción</option>
+      <option value="1">1 - Baja</option>
+      <option value="2">2 - Moderada</option>
+      <option value="3">3 - Alta</option>
+    </select>
+  </div>
+
+  <!-- Pregunta 2 -->
+  <div class="pregunta">
+    <p>2. ¿Recomendarías nuestro producto a otras personas?</p>
+    <select [(ngModel)]="respuestas[1]">
+      <option value="" disabled selected>Selecciona una opción</option>
+      <option value="1">1 - Baja</option>
+      <option value="2">2 - Moderada</option>
+      <option value="3">3 - Alta</option>
+    </select>
+  </div>
+
+  <!-- Pregunta 3 -->
+  <div class="pregunta">
+    <p>3. ¿Qué tan satisfecho estás con nuestro servicio al cliente?</p>
+    <select [(ngModel)]="respuestas[2]">
+      <option value="" disabled selected>Selecciona una opción</option>
+      <option value="1">1 - Baja</option>
+      <option value="2">2 - Moderada</option>
+      <option value="3">3 - Alta</option>
+    </select>
+  </div>
+
+  <!-- Botón para calcular el resultado -->
+  <button (click)="calcularSatisfaccion()">Finalizar Encuesta</button>
+
+  <!-- Mostrar resultado -->
+  <p class="resultado">{{ resultado }}</p>
+</div>
+
+
+
+<router-outlet></router-outlet>
